@@ -1,0 +1,28 @@
+<br />
+<div class="container">
+
+  <h4 class="titulo">{{ejercicios.titulo}}</h4>
+
+  <hr>
+
+  <textarea disabled class="descripcion">{{ejercicios.descripcion}}</textarea>
+  <h5>Test Results</h5>
+  <textarea disabled class="results">{{estado}}</textarea>
+</div>
+
+<div class="container">
+  <h5>Solution</h5>
+
+  <textarea #codigo class="texto">{{ejercicios.solucion}}</textarea>
+  <h5>Sample Tests</h5>
+  <textarea disabled class="test">{{ejercicios.test_visibles}}</textarea>
+
+  <button class="boton" type="submit" (click)='parseTestOcultos(codigo.value,valor)'>Attempt</button>
+  <button class="boton" type="submit" (click)='parseTestSimples(codigo.value,valor)'>Tests</button>
+</div>
+
+<div class="containerAnuncio">
+  <h5 titulo>{{ejercicios.titulo_publicidad}}</h5>
+  <p class="textoAnuncio">{{ejercicios.descripcion_publicidad}}</p>
+</div>
+    <br>

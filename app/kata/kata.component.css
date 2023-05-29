@@ -1,0 +1,66 @@
+
+
+
+.titulo{
+    color:white;
+    
+}
+
+.container{
+    border:1px solid grey;
+    background-color:grey;
+    width:500px;
+    height:500px;
+    float:left;
+    color:white;
+    margin-right:100px;
+}
+
+.texto{
+    width:480px;
+    height:240px;
+}
+.test{
+    width:480px;
+    height:150px;
+}
+
+.descripcion{
+    width:480px;
+    height:240px;
+}
+.results{
+    width:480px;
+    height:140px;
+}
+
+.boton{
+ float:right;
+}
+
+
+.instrucciones{
+    color:white;
+}
+
+
+.boton{
+    margin-left:15px;
+    border:1px solid grey;
+    border-radius:3px;
+}
+
+.containerAnuncio {
+  border: 1px solid white;
+  background-color: black;
+  width: 500px;
+  height: 180px;
+  float: left;
+  color: white;
+  margin-right: 100px;
+}
+.textoAnuncio {
+  width: 480px;
+  height: 60px;
+  color: white;
+}
